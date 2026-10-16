@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+<!-- favicon -->
+<link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<link rel="shortcut icon" href="./favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+<link rel="manifest" href="./site.webmanifest" />
+
+    <title>Cherry - Administrative & Operations Support | Recruitment | CRM & Client Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Pastel corporate aesthetic customizations */
+      :root {
+        --bg-main: #f8fafc;
+        --card-bg: #ffffff;
+        --primary-pastel: #e0e7ff;
+        --accent-pastel: #38bdf8;
+        --text-main: #1e293b;
+        --text-muted: #64748b;
+      }
+
+      body {
+        background-color: #f1f5f9;
+        color: #1e293b;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex flex-col justify-between text-slate-800 antialiased selection:bg-sky-100 selection:text-sky-900">
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+      <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+        <!-- EDIT: NAVBAR_BRAND -->
+        <a class="text-xl font-bold tracking-tight text-slate-800 hover:text-sky-600 transition-colors" href="#"> Administrative & Operations Support | Recruitment | CRM & Client Support </a>
+        <!-- Navigation links -->
+        <nav class="flex items-center gap-8 text-sm font-medium text-slate-600">
+          <a class="hover:text-sky-600 transition-colors" href="#about">About</a>
+          <a class="hover:text-sky-600 transition-colors" href="#projects">Projects</a>
+          <a class="hover:text-sky-600 transition-colors" href="#skills">Skills/Tools</a>
+          <a class="hover:text-sky-600 transition-colors" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <!-- MAIN CONTENT CONTAINER -->
+    <main class="max-w-6xl mx-auto px-6 py-12 space-y-24">
+      <!-- HERO SECTION -->
+      <section class="flex flex-col md:flex-row items-center justify-center gap-12 pt-6">
+        <!-- Hero Profile Image -->
+        <div class="w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border border-slate-200 bg-sky-50/60 shadow-sm flex-shrink-0">
+          <!-- EDIT: PROFILE_IMAGE -->
+          <img alt="Your Name" class="w-full h-full object-cover" src="./Portfolio.png" />
+        </div>
+        <!-- Hero Details -->
+        <div class="flex flex-col items-center md:items-start text-center md:text-left max-w-lg space-y-4">
+          <!-- EDIT: HEADING -->
+          <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900"> Cherry </h1>
+          <!-- EDIT: JOB_TITLE -->
+          <h2 class="text-xl md:text-2xl font-medium text-slate-600"> Administrative & Operations Support | Recruitment | CRM & Client Support </h2>
+          <!-- EDIT: SHORT_INTRODUCTION -->
+          <p class="text-slate-500 leading-relaxed text-base pt-1 pb-2"> Explore my portfolio in administrative support, operations coordination, recruitment, CRM management, client support, and business process improvement services. </p>
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <!-- EDIT: VIEW_PROJECTS_BUTTON -->
+            <a class="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-xl shadow-sm hover:shadow transition-all text-sm tracking-wide" href="#projects"> View my projects </a>
+            <!-- EDIT: CONTACT_ME_BUTTON -->
+            <a class="px-6 py-3 bg-sky-100 hover:bg-sky-200 text-sky-800 font-semibold rounded-xl shadow-sm hover:shadow transition-all text-sm tracking-wide border border-sky-200/60" href="#contact"> Contact me </a>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT SECTION -->
+      <section class="space-y-6" id="about">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 text-center"> About </h2>
+        <div class="bg-white rounded-3xl border border-slate-200 p-8 md:p-12 shadow-sm min-h-[180px] flex items-center justify-center">
+          <!-- EDIT: ABOUT_YOU -->
+          <p class="text-slate-600 leading-relaxed text-center max-w-3xl text-lg"> I provide administrative and operations support, recruitment coordination, CRM management, and client support to help businesses stay organized and keep daily tasks running smoothly. My experience includes managing schedules, maintaining client records, coordinating recruitment and onboarding, handling customer inquiries, and supporting day-to-day business operations. I enjoy working behind the scenes, improving workflows, solving problems, and making processes easier for both teams and clients. My focus is on providing reliable, practical support that helps businesses manage their workload and deliver a better customer experience. </p>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION -->
+      <section class="space-y-8" id="projects">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 text-center"> Projects </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Project Card 1 -->
+          <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <div class="w-full h-52 bg-slate-100 overflow-hidden">
+              <!-- EDIT: PROJECT_IMAGE_1 -->
+              <img alt="Project Title" class="w-full h-full object-cover" src="CRM Pipeline Workspace.png" />
+            </div>
+            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+              <div class="space-y-2">
+                <!-- EDIT: PROJECT_TITLE_1 -->
+                <h3 class="text-xl font-bold text-slate-800"> CRM Management & Sales Pipeline Support </h3>
+                <!-- EDIT: PROJECT_DESCRIPTION_1 -->
+                <p class="text-slate-600 text-sm leading-relaxed"> A practical CRM management project focused on organizing customer records, tracking sales leads, and managing follow-ups using tools like Close CRM and GoHighLevel. Designed to help remote sales teams maintain accurate data, monitor opportunities, and improve client communication. </p>
+              </div>
+              <!-- EDIT: PROJECT_LINK_1 -->
+              <a class="inline-block text-center w-full py-2.5 px-4 bg-sky-500 hover:bg-sky-600 text-white font-medium text-sm rounded-xl transition-colors shadow-sm" href="#"> Project Link </a>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <div class="w-full h-52 bg-slate-100 overflow-hidden">
+              <!-- EDIT: PROJECT_IMAGE_2 -->
+              <img alt="Project Title" class="w-full h-full object-cover" src="Recruitment Coordination & Employee Onboarding.png" />
+            </div>
+            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+              <div class="space-y-2">
+                <!-- EDIT: PROJECT_TITLE_2 -->
+                <h3 class="text-xl font-bold text-slate-800"> Recruitment Coordination & Employee Onboarding </h3>
+                <!-- EDIT: PROJECT_DESCRIPTION_2 -->
+                <p class="text-slate-600 text-sm leading-relaxed"> A recruitment and onboarding workflow designed to streamline candidate tracking, interview scheduling, applicant communication, and new hire documentation. Demonstrates how organized recruitment support can help remote teams manage hiring activities and create a smoother onboarding experience. </p>
+              </div>
+              <!-- EDIT: PROJECT_LINK_2 -->
+              <a class="inline-block text-center w-full py-2.5 px-4 bg-sky-500 hover:bg-sky-600 text-white font-medium text-sm rounded-xl transition-colors shadow-sm" href="#"> Project Link </a>
+            </div>
+          </div>
+          <!-- Project Card 3 -->
+          <div class="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col">
+            <div class="w-full h-52 bg-slate-100 overflow-hidden">
+              <!-- EDIT: PROJECT_IMAGE_3 -->
+              <img alt="Project Title" class="w-full h-full object-cover" src="Client Support Operations Workspace.png" />
+            </div>
+            <div class="p-6 flex flex-col flex-1 justify-between space-y-4">
+              <div class="space-y-2">
+                <!-- EDIT: PROJECT_TITLE_3 -->
+                <h3 class="text-xl font-bold text-slate-800"> Client Support & Daily Operations Management </h3>
+                <!-- EDIT: PROJECT_DESCRIPTION_3 -->
+                <p class="text-slate-600 text-sm leading-relaxed"> An administrative and operations support project focused on handling client inquiries, coordinating schedules, maintaining records, and tracking daily tasks. Designed to help US and UK-based businesses stay organized, manage customer requests, and keep routine operations running efficiently. </p>
+              </div>
+              <!-- EDIT: PROJECT_LINK_3 -->
+              <a class="inline-block text-center w-full py-2.5 px-4 bg-sky-500 hover:bg-sky-600 text-white font-medium text-sm rounded-xl transition-colors shadow-sm" href="#"> Project Link </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS AND TOOLS SECTION -->
+      <section class="space-y-8" id="skills">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 text-center"> Skills and tools </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- Skills Card -->
+          <div class="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm">
+            <!-- EDIT: SKILLS_HEADING -->
+            <h3 class="text-xl font-bold text-slate-800 border-b border-slate-100 pb-4 text-center"> Skills </h3>
+            <!-- EDIT: SKILLS_LIST -->
+            <ul class="divide-y divide-slate-100 pt-2 text-slate-600">
+              <li class="py-3 text-center">Administrative & Operations Support</li>
+              <li class="py-3 text-center">Recruitment & Candidate Sourcing</li>
+              <li class="py-3 text-center">Sales Pipeline & Lead Management</li>
+            </ul>
+          </div>
+          <!-- Tools Card -->
+          <div class="bg-white rounded-3xl border border-slate-200 p-8 shadow-sm">
+            <!-- EDIT: TOOLS_HEADING -->
+            <h3 class="text-xl font-bold text-slate-800 border-b border-slate-100 pb-4 text-center"> Tools / Technologies </h3>
+            <!-- EDIT: TOOLS_LIST -->
+            <ul class="divide-y divide-slate-100 pt-2 text-slate-600">
+              <li class="py-3 text-center">GoHighLevel & Close CRM</li>
+              <li class="py-3 text-center">Google Workspace</li>
+              <li class="py-3 text-center">Canva</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACTS SECTION -->
+      <section class="space-y-6" id="contact">
+        <h2 class="text-3xl font-bold tracking-tight text-slate-900 text-center"> Contacts </h2>
+        <div class="bg-white rounded-3xl border border-slate-200 p-8 md:p-12 shadow-sm text-center max-w-3xl mx-auto">
+          <div class="space-y-3">
+            <!-- EDIT: CONTACT_EMAIL -->
+            <p class="text-slate-600"> che.ilagan01@gmail.com </p>
+            <!-- EDIT: CONTACT_INFO -->
+            <p class=""> +639000000000 </p>
+            <!-- EDIT: SOCIAL_MEDIA_LINK -->
+            <p class="text-slate-600"> Social Media: <a class="text-sky-600 hover:text-sky-700 underline font-medium" href="#">https://www.linkedin.com/in/cherry-ilagan-74b85a216/</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="mt-24 border-t border-slate-200 bg-white py-8">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <!-- EDIT: COPYRIGHT_TEXT -->
+        <p class="text-sm text-slate-500"> © 2026 Cherry Ilagan. All rights reserved. </p>
+      </div>
+    </footer>
+  </body>
+</html>
